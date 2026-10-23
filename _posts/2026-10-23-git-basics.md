@@ -1,8 +1,9 @@
 ---
 title: Git Basics
 tags: [Git]
-description: Short overview of the basic Git commands and workflows.
+description: Short overview of basic Git commands and workflows.
 mermaid: true
+image: /assets/img/2026-10-23/mermaid-gitgraph.png
 ---
 
 ## Create a new repository
@@ -34,12 +35,21 @@ git merge --squash my_new_branch  # merge target branch with new branch in one c
 git branch -d my_new_branch       # delete new branch (optional) since everything is in main
 ```
 
-## Push changes to remote
+## Use personal access token (PAT) in URL
+
+In Github you can create a personal access token (PAT) which you can use as "password" for pushing changes.
+But keep in mind that with that the PAT is stored in plain text in the local file `.git/config`.
 
 ```shell
-git remote set-url origin https://my_user:my_pat@github.com/my_repo     # user personal access token in URL 
-                                                                        # important: this store the PAT in local .git/config
+git remote set-url origin https://my_user:my_pat@github.com/my_repo   
+# remove it with git config --unset remote.origin.url
 git push origin main                                                    
+```
+
+There is also the possibility to use the Git Credential Manager (GCM). If you work in Windows Subsystem fpr Linux (WSL) you have to configure GCM to use the Windows credential manager:
+
+```shell
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
 ```
 
 ## Example
