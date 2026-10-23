@@ -4,6 +4,7 @@ tags: [bee]
 description: Here is my short description of the first post. It basically tests a view functions such as image, video, code, math
 math: true
 mermaid: true
+image: /assets/img/
 ---
 
 # Hello World!
@@ -14,7 +15,8 @@ This is my first blog post.
 
 I just created the blog with a wonderfull image:
 
-[AI generated content](/assets/img/avatar.png)_This is my AI generated avatar picture_
+![AI generated content](avatar.png){: width="300"}
+_This is my AI generated avatar picture_
 
 ## Video
 
