@@ -20,7 +20,7 @@ I just created the blog with a wonderfull image:
 
 Have you seen the Tesla Roadster introduction last week? 
 
-{% include embed/{youtube}.html id='{qt5p-_tE8d0}' %}
+{% include embed/youtube.html id='qt5p-_tE8d0' %}
 
 ## Code 
 
