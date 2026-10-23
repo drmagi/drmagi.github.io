@@ -29,9 +29,9 @@ Have you seen the Tesla Roadster introduction last week?
 Another cool thing, you can formatted code:
 
 ```shell
-echo 'No more line numbers!'
+echo 'With line numbers!'
+echo 'Here is the 2nd line!'
 ```
-{: .nolineno }
 
 ## Math
 
