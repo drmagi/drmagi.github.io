@@ -3,7 +3,7 @@ title:  "Node.js and React"
 description: "Getting Started with React, D3, and Modern JavaScript. Created with AI support."
 categories: [Programming]
 tags: [Node,React,D3]
-image: /assets/img/2026-10-25/node-and-react.png
+image: /assets/img/2026-10-25/node-and-react.jpg
 ---
 
 

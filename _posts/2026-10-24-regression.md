@@ -3,7 +3,7 @@ title:  "Linear and Logistic Regression"
 categories: [Math,AI]
 tags: [Regression]
 math: true
-image: /assets/img/2026-10-24/regression.png
+image: /assets/img/2026-10-24/regression.jpg
 ---
 
 

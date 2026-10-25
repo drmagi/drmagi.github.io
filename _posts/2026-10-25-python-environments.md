@@ -3,7 +3,7 @@ title: "Python Environments"
 description: "How to isolate and manage Python project dependencies using the built-in venv module as well as Conda and Miniforge. Created with AI support."
 categories: [Programming]
 tags: [Python]
-image: /assets/img/2026-10-25/python-environments.png
+image: /assets/img/2026-10-25/python-environments.jpg
 ---
 
 # Python Environments
