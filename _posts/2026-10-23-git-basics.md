@@ -1,6 +1,7 @@
 ---
 title: Git Basics
 tags: [Git]
+categories: [Programming]
 description: Short overview of basic Git commands and workflows (AI supported).
 mermaid: true
 image: /assets/img/2026-10-23/mermaid-gitgraph.png
