@@ -1,10 +1,11 @@
 ---
-title: Artificial Neural Networks Introduction
-description: Introduction of the basic concepts of Artificial Neural Networks (ANN) with their methematical foundations (with AI support). 
+title: "Artificial Neural Networks"
+description: "Introduction of the basic concepts of Artificial Neural Networks (ANN) with their methematical foundations. Created with AI support."
 mermaid: true
 math: true
 categories: [Math,AI]
 tags: [Neural Networks]
+image: /assets/img/2026-10-25/neural-networks.png
 ---
 
 ## 1. Introduction

@@ -1,6 +1,6 @@
 ---
-title: Linear Algebra Essentials
-description: An introduction to essential linear algebra fundamentals with practical Python NumPy code examples. Created with AI support. 
+title: "Linear Algebra Essentials"
+description: "An introduction to essential linear algebra fundamentals with ractical Python NumPy code examples. Created with AI support. "
 categories: [Math]
 tags: [Math]
 math: true
